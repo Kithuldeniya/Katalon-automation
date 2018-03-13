@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_icon-search</name>
+   <tag></tag>
+   <elementGuidId>8be0a63f-5a6f-4aa4-a394-3c3922b825c3</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-search</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;block-desktop&quot;)/div[@class=&quot;layout-desktops-container&quot;]/div[@class=&quot;layout-desktop-container ui-droppable&quot;]/div[@class=&quot;window hardwareSpeed ui-resizable ui-draggable&quot;]/div[@class=&quot;window_outer&quot;]/div[@class=&quot;window_inner&quot;]/div[@class=&quot;window_content&quot;]/div[@class=&quot;window_bodyOuter&quot;]/div[@class=&quot;window_bodyArea&quot;]/div[@class=&quot;content_area&quot;]/div[@class=&quot;layout-module mod-messageList&quot;]/div[@class=&quot;ai-toolbar&quot;]/div[@class=&quot;search&quot;]/button[@class=&quot;btn i-btn-combine-right btn_search mod-messageList-search&quot;]/i[@class=&quot;icon-search&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>
