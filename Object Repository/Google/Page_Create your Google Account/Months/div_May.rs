@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_February</name>
+   <name>div_May</name>
    <tag></tag>
-   <elementGuidId>bde7ee21-9483-45be-81e3-f68309f880ef</elementGuidId>
+   <elementGuidId>436e7498-074d-4717-8336-2bfd7f78a836</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'May' or . = 'May')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>goog-menuitem goog-menuitem-active goog-menuitem-highlight</value>
+      <value>goog-menuitem goog-menuitem-highlight</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -28,24 +34,24 @@
       <value>option</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>:2</value>
+      <value>:5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>February</value>
+      <value>May</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;:2&quot;)</value>
+      <value>id(&quot;:5&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

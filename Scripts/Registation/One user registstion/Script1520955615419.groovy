@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Google/Page_Create your Google Account/input_Birth
 
 WebUI.setText(findTestObject('Google/Page_Create your Google Account/input_BirthYear'), '1988')
 
-WebUI.click(findTestObject('Google/Page_Create your Google Account/div_March'))
+WebUI.click(findTestObject('Google/Page_Create your Google Account/Months/div_March'))
 
 WebUI.click(findTestObject('Google/Page_Create your Google Account/div_Female'))
 
