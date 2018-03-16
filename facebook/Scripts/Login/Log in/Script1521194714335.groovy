@@ -21,6 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+//log in to facebook
 WebUI.navigateToUrl('https://www.facebook.com')
 
 WebUI.setText(findTestObject('Page_Facebook  log in or sign up/input_email'), 'rajitha.kithuldeniya@gmail.com')
