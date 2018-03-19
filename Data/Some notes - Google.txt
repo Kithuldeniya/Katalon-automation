@@ -1,0 +1,3 @@
+* when loging to google first time it is asking for security methode.
+
+* when loging to gmail there is  welcome screen
