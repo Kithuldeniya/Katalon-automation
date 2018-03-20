@@ -18,29 +18,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+codefulltext = "your google verification code is 12345"
 
-WebUI.navigateToUrl('http://192.168.8.100:8888/')
-
-WebUI.waitForElementPresent(findTestObject('AirDroid/Page_AirDroid/img'), 5)
-
-WebUI.click(findTestObject('AirDroid/Page_AirDroid/img'))
-
-WebUI.waitForElementVisible(findTestObject('AirDroid/Page_Messages  AirDroid Web/i_icon-search'), 5)
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('AirDroid/Page_Messages  AirDroid Web/input_span3 mod-messageList-se'), 'your google verification code is')
-
-WebUI.click(findTestObject('AirDroid/Page_Messages  AirDroid Web/i_icon-search'))
-
-WebUI.delay(5)
-
-codefulltext = WebUI.getText(findTestObject('AirDroid/Page_Messages  AirDroid Web/div_Your Google verification c'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.comment(codefulltext.replaceAll("Your Google verification code is", " ").replace(" ", ""))
-
-WebUI.closeBrowser()
+WebUI.comment(codefulltext.replaceAll("your google verification code is", " ").replace(" ", ""))
 

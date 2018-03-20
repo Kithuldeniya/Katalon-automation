@@ -26,7 +26,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://accounts.google.com/SignUp')
 
-for (def i : (0..10)){
+for (def i : (0..9)){
 	
 	WebUI.setText(findTestObject('Google/Page_Create your Google Account/input_FirstName'), data.internallyGetValue("FirstName", i))
 	
